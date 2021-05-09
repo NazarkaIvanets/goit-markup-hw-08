@@ -1,0 +1,42 @@
+.mobile-menu-button {
+  z-index: 105;
+  padding: 0;
+  border: none;
+  background: transparent;
+
+  &.is-open .icon-mobile-menu-close {
+    opacity: 1;
+    pointer-events: initial;
+  }
+  &.is-open .icon-mobile-menu {
+    opacity: 0;
+    pointer-events: none;
+  }
+  &:focus .icon-mobile-menu {
+    fill: $hover-color;
+  }
+  &:hover .icon-mobile-menu {
+    fill: $hover-color;
+  }
+  &:focus .icon-mobile-menu-close {
+    fill: $hover-color;
+  }
+  &:hover .icon-mobile-menu-close {
+    fill: $hover-color;
+  }
+}
+.icon-mobile-menu-close {
+  opacity: 0;
+  pointer-events: none;
+}
+.icon-mobile-menu {
+  opacity: 1;
+  pointer-events: initial;
+  fill: $logo-header-color;
+}
+
+@media screen and (min-width: 767.98px) {
+  .mobile-menu-button {
+    display: none;
+  }
+}
