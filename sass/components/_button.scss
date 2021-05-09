@@ -1,0 +1,27 @@
+.button {
+  display: inline-block;
+  min-width: 200px;
+  padding: 10px 32px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  border-style: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+  background-color: var(--link-color);
+  color: var(--white-color);
+  transition: box-shadow var(--transition-whole), color var(--transition-whole),
+    background-color var(--transition-whole);
+
+  &:hover,
+  &:focus {
+    background-color: var(--submit-color);
+  }
+}

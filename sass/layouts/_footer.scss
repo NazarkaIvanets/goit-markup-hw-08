@@ -1,0 +1,59 @@
+.footer-social-icon {
+  color: var(--white-color);
+}
+
+.contact-details__logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.address {
+  display: block;
+  margin-bottom: 9px;
+}
+
+.contact-details__list {
+  display: block;
+  margin-left: auto;
+  align-items: center;
+}
+
+.footer__label {
+  color: var(--white-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.contact-details__item:not(:last-child) {
+  display: block;
+  margin-bottom: 9px;
+}
+
+.card-list__link--grey {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card-list__icon--white {
+  fill: currentColor;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-grid {
+  flex-basis: calc((50% - 45px) / 2);
+}
+
+.footer-grid:last-child {
+  flex-basis: calc(50% - 15px);
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--bg-color);
+}

@@ -1,0 +1,38 @@
+.card-list {
+  margin-top: 16px;
+  display: flex;
+}
+
+.card-list__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.card-list__link {
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  color: var(--white-color);
+  transition: background-color var(--transition-whole);
+}
+
+.card-list__link {
+  fill: var(--clients-border-color);
+}
+
+.card-list__link:hover,
+.card-list__link:focus {
+  background-color: var(--link-color);
+}
+
+.card-list__link:hover,
+.card-list__link:focus {
+  fill: currentColor;
+}
+
+.card-list__item:not(:last-child) {
+  margin-right: 10px;
+}

@@ -1,0 +1,25 @@
+.buttons-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.buttons-menu__button {
+  font-weight: 500;
+  min-width: 73px;
+  max-height: 38px;
+  padding: 6px 22px;
+  background-color: var(--bg-button-color);
+  color: var(--title-color);
+}
+
+.buttons-menu__button--blue:hover,
+.buttons-menu__button--blue:focus {
+  background-color: var(--link-color);
+  color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.buttons-menu__item:not(:last-child) {
+  margin-right: 8px;
+}
